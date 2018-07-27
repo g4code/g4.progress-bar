@@ -1,0 +1,24 @@
+{
+  "name": "g4.progress-bar",
+  "version": "1.0.0",
+  "description": "g4.progress-bar js library",
+  "main": "src/js/g4.progress-bar.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/g4code/g4.progress-bar"
+  },
+  "keywords": [
+    "g4.progress-bar"
+  ],
+  "author": "G4 Code <office@g4code.com>",
+  "maintainers": [
+    "Drasko Gomboc <drasko.gomboc@gmail.com>",
+    "Nemanja Mirkov <mirkovnemanja@gmail.com>",
+    "Zeljko Simic <zeljkosbgd@gmail.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/g4code/g4.progress-bar/issues"
+  },
+  "homepage": "https://github.com/g4code/g4.progress-bar#readme"
+}
