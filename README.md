@@ -9,7 +9,7 @@ g4.multiselect
 
 ## Usage
 
-1. Add "js_progress_bar g4_progress_bar" classes to select element
+1. Add a "js_progress_bar" id to select element
 
 ## License
 
