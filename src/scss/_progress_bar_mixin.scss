@@ -1,0 +1,17 @@
+/*===============================================
+    G4 Progress Bar Mixin
+===============================================*/
+
+@mixin g4_progress_bar {
+    $g4_progress_bar_bg_color                  : $bg5;
+
+    @if variable-exists(g4_progress_bar_bg_color_custom) {
+        $g4_progress_bar_bg_color : $g4_progress_bar_bg_color_custom;
+    }
+
+    .g4_progress_bar {
+        background-color: $g4_progress_bar_bg_color;
+    }
+}
+
+@include g4_progress_bar();

@@ -1,0 +1,40 @@
+/*===============================================
+    G4 Progress Bar
+===============================================*/
+
+/*===  Global reset  ===*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: system-ui;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.progress_bar {
+    display: none;
+    background-color: #f7502a;
+    height: 2px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
