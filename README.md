@@ -1,4 +1,4 @@
-g4.multiselect
+g4.progress-bar
 ======
 
 > g4.progress-bar - [nodejs](http://nodejs.org) library
