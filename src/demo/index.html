@@ -10,10 +10,14 @@
 <body>
     <div id="js_progress_bar" class="progress_bar" style="width: 0%;"></div>
     <h1>G4 Progress Bar Demo</h1>
-    
+
 <script src="../js/progress-bar.js"></script>
 <script> 
-    // new G4.multiselect().make();
+     new G4.progressbar().start();
+
+     setTimeout(function(){
+         new G4.progressbar().stop();
+     }, 1000);
 </script>
 </body>
 </html>
