@@ -9,7 +9,7 @@ g4.progress-bar
 
 ## Usage
 
-1. Add a "js_progress_bar" id to select element
+1. Add a "js_progress_bar" id after body element.
 
 ## License
 

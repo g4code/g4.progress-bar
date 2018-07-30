@@ -1,6 +1,6 @@
 {
   "name": "g4.progress-bar",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "g4.progress-bar js library",
   "main": "src/js/g4.progress-bar.js",
   "repository": {

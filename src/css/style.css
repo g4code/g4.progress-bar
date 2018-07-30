@@ -31,7 +31,7 @@ h1 {
 
 .progress_bar {
     display: none;
-    background-color: #f7502a;
+    background-color: #000;
     height: 2px;
     left: 0;
     position: fixed;

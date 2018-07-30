@@ -2,9 +2,23 @@
     G4 Progress Bar Mixin
 ===============================================*/
 
-@mixin g4_progress_bar {
-    $g4_progress_bar_bg_color                  : $bg5;
+/**
+ * Mixin for customizing element visual styles (colors, shadows, border radius...).
+ * Mixin can be usefull if you have multiple websites on one project, 
+ * but can be also used for single website project
+ */
 
+@mixin g4_progress_bar {
+
+    //Default values (will be used if variables below not exists)
+    $g4_progress_bar_bg_color                  : #000 !default;
+    
+    //Set global project values
+    @if variable-exists(bg5) {
+        $g4_progress_bar_bg_color: $bg5;
+    }
+    
+    //Set project custom values
     @if variable-exists(g4_progress_bar_bg_color_custom) {
         $g4_progress_bar_bg_color : $g4_progress_bar_bg_color_custom;
     }
